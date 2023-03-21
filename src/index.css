@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.active{
+ 
+ color: red;
+}
+
+header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://images.deliveryhero.io/image/fd-op/LH/s9hc-hero.jpg);
+  background-position: center;
+  backdrop-filter: blur("4px");
+  background-size: cover;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+ul{
+  list-style: none;
+}
+.cantidades{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+ margin: 4px;
+}
+.pedido{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+}
+.cardDetalle{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin: 2rem;
+}
+.detalle{
+  display: flex;
+  flex-direction: column;
+  margin: 1rem; 
+}
+.precioDetalle{
+  display: flex;
+}
